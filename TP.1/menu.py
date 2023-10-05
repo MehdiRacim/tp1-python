@@ -6,14 +6,18 @@ def restart():
             exec(f.read())
     elif answer== "exo2" :
         from exo2 import multiply
+        
     elif answer== "exo3" :
         from exo3 import verb
+        
     elif answer== "exo4" :
         with open("exo4.py") as f:
             exec(f.read())
+           
     elif answer== "exo5" :
         with open("exo5.py") as f:
             exec(f.read())
+        
     else:
         print('Exercise invalide ou réponse inattendu... veuillez recommencer !')
         restart()
