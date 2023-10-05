@@ -1,23 +1,19 @@
 def restart():
-    print("Choisir un exercise du TP1 à lancer : \n- exo1\n- exo2\n- exo3\n- exo4\n- exo5")
-    answer = input().lower()
-    if answer== "exo1" :
+    print("Choisir un exercise du TP1 à lancer : \n1- exo1\n2- exo2\n3- exo3\n4- exo4\n5- exo5")
+    answer = input()
+    if answer== "1" :
         with open("exo1.py") as f:
             exec(f.read())
-    elif answer== "exo2" :
+    elif answer== "2" :
         from exo2 import multiply
-        
-    elif answer== "exo3" :
+    elif answer== "3" :
         from exo3 import verb
-        
-    elif answer== "exo4" :
+    elif answer== "4" :
         with open("exo4.py") as f:
             exec(f.read())
-           
-    elif answer== "exo5" :
+    elif answer== "5" :
         with open("exo5.py") as f:
             exec(f.read())
-        
     else:
         print('Exercise invalide ou réponse inattendu... veuillez recommencer !')
         restart()

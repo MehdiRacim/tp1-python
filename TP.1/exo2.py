@@ -1,4 +1,3 @@
-
 def multiply():
     while True:
         try:
@@ -26,6 +25,6 @@ def multiply():
     if recommencer == "oui": 
         multiply()
     elif recommencer == "non":
-        exit()
+        from menu import restart
 
 multiply()

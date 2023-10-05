@@ -9,20 +9,28 @@ if a == "addition" :
     d = b + c
     print(f"l'addition de {b} + {c} : {d}")
 
+    restart()
+
 if a == "soustraction" :
     b = int(input("donner un nombre : "))
     c = int(input("donner un nombre : "))
     d = b - c
     print(f"la soustraction de {b} - {c} : {d}")
 
+    restart()
+
 if a == "multiplication" :
      b = int(input("donner un nombre : "))
      c = int(input("donner un nombre : "))
      d = b*c
      print(f"la multiplication de {b} * {c} : {d}")
+
+     restart()
     
 if a == "division" :
     b = int(input("donner un nombre : "))
     c = int(input(" donner un nombre : "))
     print(f"la division de {b} / {c} : {d}")
+
+    restart()
 

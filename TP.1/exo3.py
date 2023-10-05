@@ -6,5 +6,6 @@ def verb():
     present = conjugation['moods']['indicatif']['présent']
     for element in present : 
         print(element)
-
+    from menu import restart    
+    
 verb()
